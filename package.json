@@ -10,7 +10,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "nodemon ./server"
+    "start": "nodemon ./week5/server"
   },
   "repository": {
     "type": "git",
