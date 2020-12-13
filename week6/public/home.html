@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+        <link rel="stylesheet" href="./css/login.css" />
+        <link rel="stylesheet" href="./css/reset.css" />
+        <link rel="stylesheet" href="./css/styles.css" />
+        <title>Welcome</title>
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./settings.html">Settings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/" onclick="doLogout(event)">Logout</a>
+                    </li> 
+        </header>
+<br>
+    <div class="center-text">
+        <div id="person">
+            <div>Getting Information...</div>
+        </div>
+    </div>
+
+    <div class="center">
+        <div class="card bg-custom1">
+            <div class="card-body">
+                <h2 class="card-title">Update Info</h2>
+                <form novalidate>
+                    <div class="form-group">
+                        <label for="formInputNewFirstName">New First Name</label>
+                        <input id="formInputNewFirstName" type="text" class="form-control"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="formInputNewLastName">New Last Name</label>
+                        <input id="formInputNewLastName" type="text" class="form-control"/>
+                    </div>
+                    <div class="form-group form-group-btn">
+                        <button class="btn btn-primary center-text" onclick="updatePerson(event)">Update</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    
+    </body>
+    <script src="./src/api.config.js"></script>
+    <script src="./src/simple.storage.js"></script>
+    <script src="./src/service.helpers.js"></script>
+    <script src="./src/auth.service.js"></script>
+    <script src="./src/route-guard.js"></script>
+    <script src="./src/person.service.js"></script>
+    <script src="./src/build-person-info.js"></script>
+    <script src="./src/person.js"></script>
+    <script src="./src/auth.js"></script>
+</html>

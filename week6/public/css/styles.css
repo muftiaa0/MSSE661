@@ -1,0 +1,142 @@
+
+.main {
+    min-height: 100%;
+    width: 100%;
+    font-size: larger;
+}
+
+footer {
+    padding: 16px 8px;
+    margin-top: auto;
+    position: fixed;
+    bottom: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    display: flex;
+    padding-top: 12px;
+  }
+  
+  nav ul {
+    width: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+
+.center {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.light-blue {
+    background-color: lightblue;
+}
+
+.center-text {
+    text-align: center;
+}
+
+u1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    text-align: center;
+    border: 4px lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.login {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+.login > div {
+    display: grid;
+    grid-template-columns: repeat(2, 0.7fr);
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.registration {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+.registration > div {
+    display: grid;
+    grid-template-columns: repeat(4, 0.7fr);
+    align-content: left;
+    justify-content: left;
+    align-items: left;
+    background-color:white;
+    border-bottom-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.nav {
+    height: 28px;
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    background-color: black;
+    align-items: center;
+}
+
+u1 {
+    background-color: black;
+}
+
+.navLi {
+    float: left;
+    align-content: center;
+}
+
+.navItems {
+    display: inline;
+    align-items: center;
+    align-content: center;
+    text-align: left;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 10px;
+}
+
+body {
+    background-color:khaki;
+}
+
+
