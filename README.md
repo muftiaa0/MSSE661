@@ -1,2 +1,2 @@
 # MSSE661 - Azeem Mufti
-# Week 6 - UI Enhancements + Update/Delete Information added. Updated code for building a user's welcome message making it dynamic. 
+# Week 7 - Cleaned up code, updated paths, cleaned the loading div so it is at index 0.   
